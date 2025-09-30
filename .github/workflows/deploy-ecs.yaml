@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1                  # 🔹 Change to your region
-  CLUSTER_NAME: simplyicard-dev           # 🔹 Your ECS cluster name
+  CLUSTER_NAME: mycluster           # 🔹 Your ECS cluster name
   SERVICE_NAME: simplyicard-dev-taskdefinition-service           # 🔹 Your ECS service name
   TASK_FAMILY: simplyicard-dev-taskdefinition               # 🔹 Your ECS task definition family
   ECR_REPOSITORY: simplyicard-repo       # 🔹 Your ECR repo
